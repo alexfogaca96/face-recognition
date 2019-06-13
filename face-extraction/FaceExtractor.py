@@ -8,7 +8,7 @@ def face_classifier():
     return cv2.CascadeClassifier('D:\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_alt2.xml')
 
 
-# LBP Classifier code (https://www.superdatascience.com/blogs/opencv-face-detection)
+# Viola Jones Classifier code (https://www.superdatascience.com/blogs/opencv-face-detection)
 def detect_face(f_cascade, colored_img, scale_factor=1.05):
     img_copy = colored_img.copy()
     gray_img = cv2.cvtColor(img_copy, cv2.COLOR_BGR2GRAY)
@@ -82,6 +82,7 @@ mismatches_path = 'mismatches'
 if not os.path.isdir(mismatches_path):
     os.mkdir(mismatches_path)
 
+
 mismatch_unknown_faces_number = 0
 mismatch_unknown_faces = []
 mismatch_pair = 0
@@ -116,6 +117,7 @@ for directory in range(3000):
     matplotlib.image.imsave(mismatch_folder + '/' + pair_files[1], rgb_img_two)
 
     print("saved mismatched " + str(mismatch_pair))
+
 
 print("Match faces unrecognized: " + str(match_unknown_faces_number))
 print(match_unknown_faces)
