@@ -16,9 +16,10 @@ for page in range(1, 11):
         match = []
         mismatch = []
         indexTd = 0
-        for td in tr.find_all_next('td', recursive=False):
+        for td in tr.findChildren('td', recursive=False):
             img = td.find('img')
             if img is None:
+                indexTd += 1
                 continue
             src = img['src']
             if indexTd == 0 or indexTd == 1:

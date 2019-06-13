@@ -1,6 +1,16 @@
 import os
 import urllib.request
 
+
+# e.g. http://vis-www.cs.umass.edu/lfw/images/Martha_Bowen/Martha_Bowen_0001.jpg --> Martha Bowen
+def get_person_file_name(link):
+    images_index = link.index("images")
+    images_index += len("images/")
+    link_rest = link[images_index:]
+    file_name = link_rest[link_rest.index("/") + 1:]
+    return file_name[:file_name.index(".jpg") + 4]
+
+
 # Matches
 with open('matches.txt', 'r') as matches_file:
     matches_path = "matches"
@@ -14,10 +24,10 @@ with open('matches.txt', 'r') as matches_file:
         if not os.path.isdir(line_matches_path):
             os.mkdir(line_matches_path)
 
-        match_one = open(line_matches_path + '/match_one.jpg', 'wb')
+        match_one = open(line_matches_path + '/' + get_person_file_name(links[1]), 'wb')
         match_one.write(urllib.request.urlopen(links[1]).read())
         match_one.close()
-        match_two = open(line_matches_path + '/match_two.jpg', 'wb')
+        match_two = open(line_matches_path + '/' + get_person_file_name(links[2]), 'wb')
         match_two.write(urllib.request.urlopen(links[2]).read())
         match_two.close()
         print(" downloaded    " + line_matches_path)
@@ -36,10 +46,10 @@ with open('mismatches.txt', 'r') as mismatches_file:
         if not os.path.isdir(line_mismatch_path):
             os.mkdir(line_mismatch_path)
 
-        mismatch_one = open(line_mismatch_path + '/mismatch_one.jpg', 'wb')
+        mismatch_one = open(line_mismatch_path + '/' + get_person_file_name(links[1]), 'wb')
         mismatch_one.write(urllib.request.urlopen(links[1]).read())
         mismatch_one.close()
-        mismatch_two = open(line_mismatch_path + '/mismatch_two.jpg', 'wb')
+        mismatch_two = open(line_mismatch_path + '/' + get_person_file_name(links[2]), 'wb')
         mismatch_two.write(urllib.request.urlopen(links[2]).read())
         mismatch_two.close()
         print(" downloaded    " + line_mismatch_path)
