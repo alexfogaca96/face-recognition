@@ -2998,3 +2998,8 @@
 2997: http://vis-www.cs.umass.edu/lfw/images/Yolanda_King/Yolanda_King_0001.jpg http://vis-www.cs.umass.edu/lfw/images/Zafarullah_Khan_Jamali/Zafarullah_Khan_Jamali_0001.jpg
 2998: http://vis-www.cs.umass.edu/lfw/images/Val_Ackerman/Val_Ackerman_0001.jpg http://vis-www.cs.umass.edu/lfw/images/Zhu_Rongji/Zhu_Rongji_0001.jpg
 2999: http://vis-www.cs.umass.edu/lfw/images/Shirley_Jones/Shirley_Jones_0001.jpg http://vis-www.cs.umass.edu/lfw/images/Zhu_Rongji/Zhu_Rongji_0002.jpg
+
+2999 x 2
+2999 x 2 = 12 k 
+
+

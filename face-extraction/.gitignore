@@ -1,3 +1,1 @@
-# DB Images
-matches/
-mismatches/
+*/__pycache__/*
