@@ -1,2 +1,4 @@
 /database/*
 /all_cropped_faces/*
+test.py
+/__pycache__/*
