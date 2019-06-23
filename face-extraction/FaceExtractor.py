@@ -4,7 +4,7 @@ from pathlib import Path
 import matplotlib.image
 from entities.face_pair import FacePair
 from entities.face import Face
-from enumarators.match_type import MatchType
+from enumerators.match_type import MatchType
 import pdb
 
 def save_all_pairs(list_all_pairs):
