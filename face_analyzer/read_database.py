@@ -14,7 +14,7 @@ class ReadDatabase():
 
     def read(self):
         folders = [ [MatchType.MATCH , Path('../all_cropped_faces/Match/')] ,
-                    [MatchType.MISMATCH , Path('../all_cropped_faces/Match/')] 
+                    [MatchType.MISMATCH , Path('../all_cropped_faces/Mismatch/')] 
         ]
         self.all_data = []
         for type_folder in  folders:
