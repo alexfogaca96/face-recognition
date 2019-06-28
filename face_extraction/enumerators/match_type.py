@@ -1,4 +1,6 @@
 from enum import Enum
+
+
 class MatchType(Enum):
     MATCH = "Match"
     MISMATCH = "Mismatch"

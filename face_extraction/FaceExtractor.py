@@ -1,11 +1,11 @@
 import cv2
 import os
-from pathlib import Path
 import matplotlib.image
-from entities.face_pair import FacePair
-from entities.face import Face
-from enumerators.match_type import MatchType
-import pdb
+from pathlib import Path
+from face_extraction.entities.face_pair import FacePair
+from face_extraction.entities.face import Face
+from face_extraction.enumerators.match_type import MatchType
+
 
 def save_all_pairs(list_all_pairs):
     main_path = Path('../all_cropped_faces/')
@@ -16,50 +16,49 @@ def save_all_pairs(list_all_pairs):
         type_path = main_path / match_type.value
         if not os.path.exists(type_path):
             os.mkdir(type_path)
-        pairs_list = list(filter(lambda x: x.match_type == match_type ,list_all_pairs ))
+        pairs_list = list(filter(lambda x: x.match_type == match_type, list_all_pairs))
 
         for pair in pairs_list:
             pair_folder_path = type_path / pair.origin_folder_name
             if not os.path.exists(pair_folder_path):
                 os.mkdir(pair_folder_path)
             for face in pair.faces:
-                matplotlib.image.imsave(pair_folder_path / face.image_name , face.face_image)
+                matplotlib.image.imsave(pair_folder_path / face.image_name, face.face_image)
                 print("generating cropped image in " + str(pair_folder_path / face.image_name))
 
-def extract_faces_from_folder( folder_name , face_classifier, match_type):
+
+def extract_faces_from_folder(folder_name, face_classifier, match_type):
     all_pairs = [] 
     if not os.path.isdir(folder_name):
         os.mkdir(folder_name)
 
     match_path = Path(folder_name)
-    for  directory in os.listdir(folder_name):
+    for directory in os.listdir(folder_name):
         failed_to_find_face = False
 
-        pair_path = match_path /  str(directory)
+        pair_path = match_path / str(directory)
         detected_faces = [] 
         for image_name in os.listdir(pair_path):
             full_image = cv2.imread(str(pair_path / image_name))
-            face_detected_img , face = detect_face(face_classifier, full_image)
-            processed_img = None
+            face_detected_img, face = detect_face(face_classifier, full_image)
             if len(face) == 0 or failed_to_find_face:
                 failed_to_find_face = True
                 processed_img = full_image
             else:
                 processed_img = crop_image_by_face(full_image, face)
             face_img = cv2.cvtColor(processed_img, cv2.COLOR_BGR2RGB)
-            detected_faces.append(Face(face_img , image_name))
-               
-        face_pair = None
+            detected_faces.append(Face(face_img, image_name))
 
         if failed_to_find_face:
-            face_pair = FacePair(detected_faces[0] , detected_faces[1], MatchType.FACE_NOT_FOUND,  directory+"_"+match_type.value )
+            match_type_value = directory + "_" + match_type.value
+            face_pair = FacePair(detected_faces[0], detected_faces[1], MatchType.FACE_NOT_FOUND, match_type_value)
         else:
-            face_pair = FacePair(detected_faces[0] , detected_faces[1], match_type ,  directory)
-        
-        all_pairs.append(face_pair)
+            face_pair = FacePair(detected_faces[0], detected_faces[1], match_type,  directory)
 
+        all_pairs.append(face_pair)
     return all_pairs
-    
+
+
 # Returns the default frontal face classifier from cv2
 def face_classifier():
     current_path = Path(os.path.dirname(os.path.realpath(__file__)))
@@ -70,7 +69,6 @@ def face_classifier():
 def detect_face(f_cascade, colored_img, scale_factor=1.05):
     img_copy = colored_img.copy()
     gray_img = cv2.cvtColor(img_copy, cv2.COLOR_BGR2GRAY)
-    #gray_equalized = cv2.equalizeHist(gray_img)
     faces = f_cascade.detectMultiScale(gray_img, scaleFactor=scale_factor, minNeighbors=1 , minSize =(60,60))
     for (x, y, w, h) in faces:
         cv2.rectangle(img_copy, (x, y), (x + w, y + h), (0, 255, 0), 2)
@@ -92,13 +90,13 @@ def show_images(images):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+
 if __name__ == "__main__":    
     # Initialize classifier
     face_cascade = face_classifier()
     all_pairs = []
     match_path = Path('../scrapper/matches')
     mismatch_path = Path('../scrapper/mismatches')
-    all_pairs.extend(extract_faces_from_folder(match_path , face_cascade, MatchType.MATCH))
-    all_pairs.extend(extract_faces_from_folder(mismatch_path , face_cascade, MatchType.MISMATCH))
+    all_pairs.extend(extract_faces_from_folder(match_path, face_cascade, MatchType.MATCH))
+    all_pairs.extend(extract_faces_from_folder(mismatch_path, face_cascade, MatchType.MISMATCH))
     save_all_pairs(all_pairs)
-    
