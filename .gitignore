@@ -2,3 +2,4 @@
 /all_cropped_faces/*
 test.py
 /__pycache__/*
+/bck_cropped_faces/*
