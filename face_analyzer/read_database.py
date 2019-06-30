@@ -15,16 +15,10 @@ class ReadDatabase:
         folders = [[MatchType.MATCH, Path('../all_cropped_faces/Match/')],
                    [MatchType.MISMATCH, Path('../all_cropped_faces/Mismatch/')]]
         self.all_data = []
-<<<<<<< HEAD
         for type_folder in  folders:
             match_type , folder_path = type_folder[0] , type_folder[1]
             self.all_data.extend(self.read_folder(match_type , folder_path))
         random.shuffle(self.all_data)
-=======
-        for type_folder in folders:
-            match_type, folder_path = type_folder[0], type_folder[1]
-            self.all_data.extend(self.read_folder(match_type, folder_path))
->>>>>>> 8891c50cae05c9b9db49d14e6d92de7992a5a221
 
     @staticmethod
     def read_folder(match_type, folder_path):

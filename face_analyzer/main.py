@@ -22,8 +22,8 @@ def execute_knn(training_data):
 
 def execute_neural_network():
     data = training_validation.get_training_database(1)[0]
-    neural_network = NeuralNetwork(6, ActivationFunctions.sigmoid_function, len(data.face_one) * 2)
-    neural_network.calculate_first_layer_output(data.face_one, data.face_two)
+    neural_network = NeuralNetwork(6, ActivationFunctions.sigmoid_function, len(data.face_one) * 2 , 2, 0.5)
+    neural_network.execute_training(training_validation)
 
 
 if __name__ == "__main__":
@@ -35,11 +35,8 @@ if __name__ == "__main__":
     training_validation = read_database.get_k_fold_database(k_folders_validation, 0.7)
     print("applying hog to database...")
     training_validation.apply_hog()
-<<<<<<< HEAD
     data = training_validation.get_training_database(1)[0]
     neural_network =NeuralNetwork(6 ,ActivationFunctions.sigmoid_function , len(data.face_one)*2 , 2 , 0.7)
     neural_network.execute_training(training_validation)
-=======
     print("knn")
     execute_knn(training_validation)
->>>>>>> 8891c50cae05c9b9db49d14e6d92de7992a5a221
