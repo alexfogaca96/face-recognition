@@ -12,5 +12,5 @@ if __name__ == "__main__":
     print("applying hog to database...")
     training_validation.apply_hog()
     data = training_validation.get_training_database(1)[0]
-    neural_network =NeuralNetwork(6 ,ActivationFunctions.sigmoid_function , len(data.face_one)*2)
-    neural_network.calculate_first_layer_output(data.face_one, data.face_two)
+    neural_network =NeuralNetwork(6 ,ActivationFunctions.sigmoid_function , len(data.face_one)*2 , 2 , 0.7)
+    neural_network.execute_training(training_validation)

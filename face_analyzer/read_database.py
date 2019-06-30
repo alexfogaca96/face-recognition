@@ -20,6 +20,7 @@ class ReadDatabase():
         for type_folder in  folders:
             match_type , folder_path = type_folder[0] , type_folder[1]
             self.all_data.extend(self.read_folder(match_type , folder_path))
+        random.shuffle(self.all_data)
 
     def read_folder(self , match_type , folder_path):
         list_data_item = [] 
