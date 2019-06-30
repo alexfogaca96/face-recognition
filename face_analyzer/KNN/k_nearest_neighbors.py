@@ -1,5 +1,6 @@
 from math import pow, sqrt
-from face_analyzer.enumerators.match_type import MatchType
+from enumerators.match_type import MatchType
+import numpy as np
 
 
 class KNN:
@@ -17,15 +18,14 @@ class KNN:
             distance = KNN.euclidean_distance(desired_difference, self.network[difference][0])
             differences.append([distance, self.network[difference][1]])
         differences.sort(key=lambda x: x[0])
-        matches = 0
-        for neighbor in range(self.k_neighbors):
-            if differences[neighbor][1] == MatchType.MATCH:
-                matches += 1
-        if matches == (self.k_neighbors / 2):
-            return differences[0][1]
-        if matches > (self.k_neighbors / 2):
-            return MatchType.MATCH
-        return MatchType.MISMATCH
+        if  isinstance(self.k_neighbors , int ) :
+            return self.get_result_for_k_neighbors(self.k_neighbors,differences)
+        else:
+            match_type_per_k_neighbor = np.array([]).reshape((0,2))
+            for k_neighbor in self.k_neighbors:
+                match_type = self.get_result_for_k_neighbors(k_neighbor,differences)
+                match_type_per_k_neighbor = np.append(match_type_per_k_neighbor , [[k_neighbor , match_type]], axis = 0)
+            return match_type_per_k_neighbor
 
     @staticmethod
     def euclidean_distance(point_one, point_two):
@@ -65,3 +65,14 @@ class KNN:
             raw_difference = image_one[feature] - image_two[feature]
             difference.append(raw_difference * raw_difference)
         return difference
+
+    def get_result_for_k_neighbors(self , k_neighbors , differences):
+        matches = 0
+        for neighbor in range(k_neighbors):
+            if differences[neighbor][1] == MatchType.MATCH:
+                matches += 1
+        if matches == (k_neighbors / 2):
+            return differences[0][1]
+        if matches > (k_neighbors / 2):
+            return MatchType.MATCH
+        return MatchType.MISMATCH

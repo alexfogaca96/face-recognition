@@ -79,23 +79,11 @@ class NeuralNetwork():
         self.i_h_weigths  = np.add(self.i_h_weigths,update_weigths)
         self.h_bias  = np.add(self.h_bias,update_bias)
         
-        '''
-        error_matrix = self.calc_error(final_output , expected_result)
-        derivative_func = lambda x : x * ( 1 - x)
-        transpose_hidden_output = np.transpose(hidden_layer_output)
-        gradient = derivative_func(final_output)
-        gradient = np.multiply(gradient, error_matrix)
-        gradient = np.multiply(gradient,self.learn_rate)
-        print("gradiente: " + str(gradient))
-        print("transpose hidden_output :" + str(transpose_hidden_output))
-        update_matrix = np.dot(gradient , transpose_hidden_output)
-        return update_matrix
-        '''
     def get_update_matrix(self ,last_layer_output , error_matrix , previous_output  ):
         #print("error matrix:" + str(error_matrix))
-        derivative_func = lambda x : x * ( 1 - x)
         t_previous_output = np.transpose(previous_output)
-        gradient = derivative_func(last_layer_output)
+        #derivative of sigmoid
+        gradient = last_layer_output * (1 - last_layer_output)
         gradient = np.multiply(gradient, error_matrix)
         gradient = np.multiply(gradient,self.learn_rate)
         #print("gradiente: " + str(gradient))

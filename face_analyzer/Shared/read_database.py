@@ -2,9 +2,9 @@ import os
 import cv2
 import random
 from pathlib import Path
-from face_analyzer.enumerators.match_type import MatchType
-from face_analyzer.entities.data_item import DataItem
-from face_analyzer.entities.training_validation_database import TrainingValidationDatabase
+from enumerators.match_type import MatchType
+from entities.data_item import DataItem
+from entities.training_validation_database import TrainingValidationDatabase
 
 
 class ReadDatabase:
@@ -12,8 +12,8 @@ class ReadDatabase:
         self.all_data = None 
 
     def read(self):
-        folders = [[MatchType.MATCH, Path('../all_cropped_faces/Match/')],
-                   [MatchType.MISMATCH, Path('../all_cropped_faces/Mismatch/')]]
+        folders = [[MatchType.MATCH, Path('../../all_cropped_faces/Match/')],
+                   [MatchType.MISMATCH, Path('../../all_cropped_faces/Mismatch/')]]
         self.all_data = []
         for type_folder in  folders:
             match_type , folder_path = type_folder[0] , type_folder[1]
