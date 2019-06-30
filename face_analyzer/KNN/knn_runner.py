@@ -51,7 +51,9 @@ class KNNRunner():
         
         num_neighbors =counter_neighbors[:,0]
         percentage_match =counter_neighbors[:,1]/len(validation_data)
-        plt.plot( num_neighbors ,percentage_match , 'ro')
+        plt.plot( num_neighbors ,percentage_match )
+        plt.ylabel( "Percentage of correct matchs" )
+        plt.xlabel( "Number of neighbors")
         file_path = KNNRunner.results_path / ("knn_results" +str(datetime.datetime.now()) + ".pdf")
         plt.savefig(str(file_path))
         plt.show()
