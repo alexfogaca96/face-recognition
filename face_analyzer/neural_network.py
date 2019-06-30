@@ -106,7 +106,7 @@ class NeuralNetwork():
 
     def formatting_inputs(self , first_face , second_face):
         first_face_copy = first_face.copy()
-        first_face_copy = np.resize(first_face_copy, (len(first_face_copy) ,1 ))
+        first_face_copy = np.resize(first_face_copy, (len(first_face_copy), 1))
         second_face_copy = second_face.copy()
         second_face_copy = np.resize(second_face_copy , (len(first_face_copy) , 1))
         input_matrix =np.append(first_face_copy, second_face_copy , axis=0)
