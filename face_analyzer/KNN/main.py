@@ -14,8 +14,8 @@ def main():
     read_database.read()
     print("breaking database in " + str(k_folders_validation) + " training databases and 1 testing database")
     training_validation = read_database.get_k_fold_database(k_folders_validation, 0.7)
-    print("applying hog to database...")
-    training_validation.apply_hog()
+    print("applying lpb to database...")
+    training_validation.apply_lpb()
     KNNRunner().run([1,2,3,4,5,6,7,8,9,10,15,20,30] , training_validation )
 
 if __name__ == "__main__":

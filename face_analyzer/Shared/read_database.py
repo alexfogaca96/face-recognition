@@ -29,7 +29,9 @@ class ReadDatabase:
             for face in os.listdir(face_folder_path):
                 dim = (73, 73)
                 image_path = face_folder_path / face
-                face_image = cv2.imread(str(image_path))
+                face_image = cv2.imread(str(image_path) )
+                face_image = cv2.cvtColor(face_image, cv2.COLOR_BGR2GRAY)
+                #converting to grey
                 face_image = cv2.resize(face_image, dim, interpolation=cv2.INTER_AREA)
                 list_face.append(face_image)
             data_item = DataItem(list_face[0], list_face[1], match_type)

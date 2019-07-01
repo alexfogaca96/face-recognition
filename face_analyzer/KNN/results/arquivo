@@ -1,0 +1,717 @@
+<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1155 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1156 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1157 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1158 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1159 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1160 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1161 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1162 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1163 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1164 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1165 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1166 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1167 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1168 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1169 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1170 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1171 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1172 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1173 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1174 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1175 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1176 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1177 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1178 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1179 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1180 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1181 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1182 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1183 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1184 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1185 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1186 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1187 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1188 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1189 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1190 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1191 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1192 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1193 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1194 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1195 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1196 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1197 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1198 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1199 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1200 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1201 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1202 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1203 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1204 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1205 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1206 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1207 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1208 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1209 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1210 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1211 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1212 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1213 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1214 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1215 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1216 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1217 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1218 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1219 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1220 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1221 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1222 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1223 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1224 match
+calculating distances...
+match_result: [<MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MATCH
+testing if pair 1225 match
+calculating distances...
+match_result: [<MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MISMATCH: 'Mismatch'> <MatchType.MISMATCH: 'Mismatch'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'> <MatchType.MATCH: 'Match'>
+ <MatchType.MATCH: 'Match'>]
+pair_match_typeMatchType.MISMATCH
+testing if pair 1226 match
+calculating distances...
+
