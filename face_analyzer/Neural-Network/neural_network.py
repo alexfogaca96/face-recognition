@@ -29,10 +29,9 @@ class NeuralNetwork():
         self.medium_training_error = np.array([])
         validation_error_list = np.array([])
         min_validation_error = float('inf')
-        deteriorate_limiter = 0.005
         consecutive_deteriorate = 0
 
-        while k < max_num_epocas and np.median(self.medium_error) > 0.0001 and consecutive_deteriorate < 7:
+        while k < max_num_epocas and np.median(self.medium_error) > 0.0001 and consecutive_deteriorate < 5:
             if(k == 0 ):
                 self.medium_error = np.array([])
             traning_db = training_validation_database.get_all_training_data()
@@ -45,11 +44,11 @@ class NeuralNetwork():
                 validation_db = training_validation_database.validation_db
                 validation_error =self.calc_average_error_for_data_validation(validation_db)
                 validation_error_list= np.append(validation_error_list ,validation_error)
-                if min_validation_error >= validation_error:
+                if min_validation_error > validation_error:
                     min_validation_error = validation_error
                     self.save()
                 ## para ser considerado uma piora tem que ultrapassar: min_validation_error + deteriorate_limiter 
-                elif validation_error > min_validation_error + deteriorate_limiter: 
+                else: 
                     consecutive_deteriorate += 1
 
             k = k +1
@@ -78,7 +77,7 @@ class NeuralNetwork():
         final_output = self.calc_output_to_next_layer(self.h_o_weigths , hidden_layer_output , self.o_bias)
         error_matrix = self.calc_error(final_output , expected_result)
         self.medium_training_error = np.append(self.medium_training_error ,np.sum(self.calculate_half_square_error(final_output , expected_result)))
-        update_weigths ,update_bias= self.get_update_matrix(final_output , error_matrix , hidden_layer_output )
+        update_weigths ,update_bias= self.get_update_matrix_l(final_output , error_matrix , hidden_layer_output )
         self.h_o_weigths = np.add(self.h_o_weigths , update_weigths)
         self.o_bias =  np.add(self.o_bias,update_bias)
         error_matrix = np.dot(np.transpose(self.h_o_weigths) , error_matrix)
@@ -91,6 +90,19 @@ class NeuralNetwork():
         t_previous_output = np.transpose(previous_output)
         #derivative of sigmoid
         gradient = last_layer_output * (1 - last_layer_output)
+        gradient = np.multiply(gradient, error_matrix)
+        gradient = np.multiply(gradient,self.learn_rate)
+        #print("gradiente: " + str(gradient))
+        #print("transpose hidden_output :" + str(t_previous_output))
+        update_matrix = np.dot(gradient , t_previous_output)
+        #print("UPDATE MATRIX: " + str(update_matrix))
+        return update_matrix , gradient
+    
+    def get_update_matrix_l(self ,last_layer_output , error_matrix , previous_output  ):
+        #print("error matrix:" + str(error_matrix))
+        t_previous_output = np.transpose(previous_output)
+        #derivative of sigmoid
+        gradient = last_layer_output 
         gradient = np.multiply(gradient, error_matrix)
         gradient = np.multiply(gradient,self.learn_rate)
         #print("gradiente: " + str(gradient))
@@ -172,6 +184,9 @@ class NeuralNetwork():
         x_index = np.arange(0,self.medium_error.size)
         plt.plot(x_index ,self.medium_error  , color = 'skyblue' , label = "training error")
         plt.plot(traning_x , validation_error_list , color = 'olive' , label = "validation_error")
+        plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+        plt.xlabel("Error rate")
+        plt.ylabel("Number of epochs")
         file_path = NeuralNetwork.results_path / ("Neural_Network_results_" +str(datetime.datetime.now()) + ".pdf")
         plt.savefig(file_path)
         plt.show()

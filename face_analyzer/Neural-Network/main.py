@@ -21,5 +21,5 @@ if __name__ == "__main__":
     print("applying hog to database...")
     training_validation.apply_hog()
     example_data = training_validation.get_training_database(0)[0]
-    neural_network =NeuralNetwork(10 ,ActivationFunctions.sigmoid_function , len(example_data.face_one)*2 , 2 , 0.1)
+    neural_network =NeuralNetwork(12 ,ActivationFunctions.sigmoid_function , len(example_data.face_one)*2 , 2 , 0.1)
     neural_network.execute_training(training_validation)
